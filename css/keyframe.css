@@ -1,0 +1,88 @@
+.circle{
+    width: 330px;
+    height: 330px;
+    background: deepskyblue;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    animation: 2s circleKey linear infinite;
+}
+@keyframes circleKey {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.block{
+    border: solid 1px lightskyblue;
+    width: 500px;
+    height: 500px;
+}
+.teg{
+    width: 200px;
+    height: 200px;
+    background: hotpink;
+    border-radius: 50%;
+    animation: 5s lineKey infinite;
+}
+@keyframes lineKey {
+    0%{
+
+    }
+    25%{
+        margin-left: 300px;
+        margin-top: 0;
+    }
+    50%{
+        margin-left: 300px;
+        margin-top: 300px;
+    }
+    75%{
+        margin-left: 0;
+        margin-top: 300px;
+    }
+    100%{
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    animation: 2s imgKey infinite;
+}
+@keyframes imgKey {
+    from{
+        transform: rotate3d(0,0,0,0turn);
+    }
+    to{
+        transform: rotate3d(1,1,1,01turn);
+    }
+}
+.btn{
+    padding: 100px 100px;
+    background: transparent;
+    font-size: 50px;
+    border-left: solid 2px palevioletred;
+    border-bottom: solid 2px darkseagreen;
+    border-top: solid 2px pink;
+    border-right: solid 2px deepskyblue;
+    animation: 2s btnKey infinite;
+    border-radius: 50%;
+    color: yellowgreen;
+}
+@keyframes btnKey {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.4,1.4);
+        background: yellow;
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}

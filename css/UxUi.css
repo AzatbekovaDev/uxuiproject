@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#begin{
+    background: black;
+}
+.begin{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 2px red;
+    border-radius: 12px;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+}
+.category{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.begin a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#first{
+    background: black;
+    height: 900px;
+}
+.first{
+    background: url("../img/Ellipse 2.svg") no-repeat center/cover;
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+.img2{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.next{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+.firstTitle{
+    font-size: 144px;
+    color: #FFFFFF;
+    margin: 80px 0 0 0;
+    font-family: "Fira Sans" ,sans-serif;
+}
+.firstTitle2{
+    font-size: 33px;
+    color: #FFFFFF;
+    margin: 20px 0 50px 0;
+}
+.line1 {
+    width: 312px;
+    height: 1px;
+    background: #FF0000;
+}
+.btn{
+    font-weight: 700;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 27px;
+    border: none ;
+    margin: 30px 0;
+}
+.penTitle{
+    margin: 20px 0 0 0;
+    font-family: 'Fira Sans',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    text-align: center;
+}
+#about{
+    background: black;
+}
+.about{
+    height: 600px;
+}
+.line2{
+    width: 180px;
+    height: 1px;
+    background: #FF0000;
+}
+.aboutTitle{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0 0 40px 0;
+}
+.aboutTitle2{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 0 50px;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.names{
+    display: flex;
+    justify-content: space-around;
+}
+.irinaTittle{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.irina{
+    text-align: center;
+}
+.alexTittle{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.alex{
+    text-align: center;
+}
+.mariTittle{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.mari{
+    text-align: center;
+}
+.line{
+    width: 94px;
+    height: 1px;
+    background: #FF0000;
+    margin: 0 0 0 50px;
+}
+#second{
+    background: black;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+.reline{
+    width: 232px;
+    height: 1px;
+    background: #FF0000;
+    margin: 0 0 30px 175px;
+}
+.design1 h1{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.redesign{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.design1{
+    text-align: center;
+}
+.de-line{
+    width: 232px;
+    height: 1px;
+    background: #FF0000;
+    margin: 0 0 30px 165px;
+}
+.design2 h1{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.design{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.design2{
+    text-align: center;
+}
+#third{
+    background: black;
+}
+.third{
+    height: 900px;
+}
+.thirdBtn{
+    width: 176px;
+    height: 44px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 27px;
+    border: none ;
+    margin: 0 0 0 560px;
+}
+.img3{
+    position: absolute;
+    top: 1500px;
+    left: 0;
+}
+.img4{
+    position: absolute;
+    right: 0;
+    top: 1500px;
+}
+.line6{
+    width: 364px;
+    height: 1px;
+    background: #FF0000;
+    margin: 0 0 0 470px;
+}
+.thirdTitle{
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.center{
+    margin: 350px 0 0 0;
+}
+.thirdImg{
+    background: url("../img/Ellipse 2.svg") no-repeat center/cover;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.thirdBtn2 {
+    width: 206px;
+    height: 57px;
+    background: #FF0000;
+    border-radius: 51px;
+    border: none;
+    margin: 70px 0 0 750px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.thirdTitle2{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 100px 0 0 400px;
+}
+#fourth{
+    background: black;
+}
+.fourthImg{
+    margin: 0 0 0 800px;
+}
+.fourthBtn{
+    position: absolute;
+    width: 206px;
+    height: 57px;
+    background: #FF0000;
+    border-radius: 51px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 230px;
+    margin-left: 230px;
+}
+.fourthTittle{
+    position: absolute;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.fourthImg2{
+    margin: 40px 0 0 100px;
+}
+.fourthTitle2{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: -300px 0 0 400px;
+}
+.fourthBtn2{
+    width: 206px;
+    height: 57px;
+    background: #FF0000;
+    border-radius: 51px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 50px 0 0 735px;
+}
+.fourthTittle3{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 300px 600px 0 0;
+}
+.fourthBtn3{
+    width: 206px;
+    height: 57px;
+    background: #FF0000;
+    border-radius: 51px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 50px 0 0 250px;
+}
+.fourthImg3{
+    margin: -240px 0 0 800px;
+}
+#fifth{
+    background: black;
+}
+.fifth{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fifthBtn{
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    color: black;
+    border: none;
+    font-size: 14px;
+    margin: 50px 0 0 0;
+}
+.img5{
+    position: absolute;
+    top: 3800px;
+    left: 0;
+}
+.img6{
+    position: absolute;
+    right: 0;
+    top: 3800px;
+}
+.fifthTittle{
+    border-top: 1px solid red;
+    padding: 15px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 370px 0 0 0;
+}
+.img8{
+    position: absolute;
+    margin-top: 600px;
+    margin-right: 450px;
+}
+.img9{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 450px;
+}
+.img7{
+    position: absolute;
+    margin-top: 580px;
+}
+.svg1{
+    position: absolute;
+    margin-top: 740px;
+    margin-right: 1050px;
+}
+.svg2{
+    position: absolute;
+    margin-top: 740px;
+    margin-left: 1050px;
+}
+.points{
+    display: flex;
+    margin: 550px 0 0 0;
+}
+.fifthBtn2{
+    padding: 10px 30px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    color: black;
+    font-size: 14px;
+    border: none;
+    margin: 50px 0 300px 0;
+}
+#finish{
+    background: black;
+}
+.finishTittle{
+    font-size: 40px;
+    color: #FFFFFF;
+    border-top: 1px solid red;
+    padding: 15px ;
+    margin: 0 390px;
+    text-align: center;
+}
+.finishName{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 0 0 30px;
+}
+.finishInput{
+    width: 370px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.numberTittle{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 0 0 30px;
+}
+.finishNumber{
+    width: 370px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.smsTittle{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 0 0 30px;
+}
+.finishSms{
+    width: 927px;
+    height: 133px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.Name{
+    display: flex;
+    flex-direction: column;
+}
+.Number{
+    display: flex;
+    flex-direction: column;
+}
+.finish2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sms{
+    margin: 50px 0 0 182px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+.linksTittle{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0 20px 0 200px;
+}
+.icon{
+    position: absolute;
+    margin-left: 334px;
+}
+.link{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 30px 0 5px;
+}
+.link2{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 0 0 5px;
+}
+.footerBtn{
+    width: 188px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    color: black;
+    margin: 30px 0 0 200px;
+}
+.send{
+    display: flex;
+    flex-direction: column;
+}
